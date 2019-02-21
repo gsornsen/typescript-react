@@ -35,5 +35,8 @@ else
 fi
 
 # Launch chromium-browser in kiosk mode
+# Hacky work-around to waiting for npm to compile before
+# launching the browser, so we don't see any errors
+sleep 10
 chromium-browser http://localhost:3000 --kiosk --disable-infobars \
 --no-first-run --fast-start --fast --disable-features=TranslateUI
