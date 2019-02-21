@@ -4,10 +4,10 @@ Sandbox to try Typescript with React and open it in a Chromium Browser in kiosk 
 ***
 
 ## **Dependencies**
-Node.js
-npm
-chromium-browser
-Ubuntu or similar distro
+* Node.js
+* npm
+* chromium-browser
+* Ubuntu or similar distro
 ***
 
 ## **Running**
