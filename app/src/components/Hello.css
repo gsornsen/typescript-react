@@ -1,0 +1,42 @@
+.hello {
+    text-align: center;
+    margin: 0;
+    font-size: 72px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #303030;
+}
+  
+  .hello button {
+    /*transition-duration: 0.4s;*/
+    margin: 25px;
+    text-align: center;
+    font-size: 40px;
+    min-width: 100px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #303030;
+    background-color: #303030;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.hello button:hover {
+    background-color: white;
+    color: #303030;
+}
+
+.hello button:focus {
+    outline: 0;
+}
+
+.hello button:active {
+    transform: translateY(1px);
+}
+
+.hello button:disabled {
+    visibility: hidden;
+}
